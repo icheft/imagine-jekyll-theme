@@ -2,6 +2,8 @@
 
 Jekyll theme based on [Imagine Bootstrap Template](https://colorlib.com/wp/template/imagine/) under CC BY 3.0 license, which means [footer credits must remain in place](https://colorlib.com/wp/licence/).
 
+I've changed the contents a bit to show more of what the template/theme can do.
+
 ## Demo
 View demo of this jekyll theme [here](https://icheft.github.io/imagine-jekyll)
 
