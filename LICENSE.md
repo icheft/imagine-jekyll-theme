@@ -13,6 +13,27 @@ BY EXERCISING ANY RIGHTS TO THE WORK PROVIDED HERE, YOU ACCEPT AND AGREE TO BE B
 
 ------------------------
 
+# Legal Attribution for Free Templates by Colorlib
+
+Colorlib provides professionally designed mobile-friendly website templates. When you download or use our templates without paying, it will attribute the following conditions. Which means:
+
+✅ **You are allowed to**
+
++ You are allowed to use templates for personal and business usage.
++ You are allowed to customize templates however you like.
++ You are allowed to convert/port HTML templates for use for any CMS.
++ You are allowed to share and distribute them under Colorlib brand name.
+
+❗️**Limitations for FREE versions**
+
++ You are not allowed to remove the copyright credit from the footer.
++ You are not allowed to sell, resale, rent, and lease our template.
++ We don’t provide any technical support for free HTML templates.
+
+❗️**Limitations for Extended versions**
+
++ You can’t resell on other marketplaces or theme/template stores. Otherwise, you can do whatever you like with our templates after the purchase.
+
 # Attribution 3.0 Unported (CC BY 3.0)
 This is a [human-readable summary](http://creativecommons.org/licenses/by/3.0/deed.en_US) of the [Legal Code (the full license)](http://creativecommons.org/licenses/by/3.0/legalcode).
 
