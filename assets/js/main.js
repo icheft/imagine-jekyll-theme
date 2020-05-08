@@ -253,4 +253,9 @@ jQuery(document).ready(function($) {
   };
   siteScroll();
 
+
+  $(function () {
+	$("#bgndVideo").YTPlayer();
+});
+
 });

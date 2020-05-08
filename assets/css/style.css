@@ -1977,3 +1977,23 @@ h1, h2, h3, h4, h5,
   background-color: #4285f4 !important;
   border-color: #4285f4 !important;
   color: #fff; }
+
+
+
+.tab-list-custom {
+    border-bottom: 1px solid #4887d4; }
+.tab-list-custom .nav-link {
+      position: relative;
+      border-radius: 4px !important;
+      border-color: transparent !important; }
+.tab-list-custom .nav-link:hover {
+        border: 1px solid transparent;
+        color: rgb(4, 42, 104); }
+.tab-list-custom .nav-link.active {
+      background: #5585ffea;
+      border-color: #117cff;
+      color: rgb(255, 255, 255); }
+.table-custom td {
+    color: rgb(19, 2, 2);
+    padding-top: 20px;
+    padding-bottom: 20px; }
