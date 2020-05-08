@@ -5,7 +5,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Jekyll theme based on Imagine Bootstrap Template under CC BY 3.0 license, 
   which means footer credits must remain in place.
   The original source code can be found on colorlib.
-# baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: /imagine-jekyll # the subpath of your site, e.g. /blog
 url: https://icheft.github.io/imagine-jekyll # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  icheft
 
