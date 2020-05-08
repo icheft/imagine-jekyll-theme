@@ -8,3 +8,37 @@
 @import "site-navbar";
 /* Blocks */
 @import "site-blocks";
+
+.intro-section {
+	
+	position: relative;
+	&, .container .row {
+		height: 100vh;
+		min-height: 900px;
+	}
+	&:before {
+		content: "";
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		background: #222;
+		border-bottom-right-radius: 0px;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		@include media-breakpoint-down(md) {
+			width: 100%;
+		}
+	}
+
+	h1 {
+		font-size: 7rem;
+		font-weight: 900;
+		color: $white;
+	}
+	p {
+		color: rgba(255,255,255,.5);
+		font-size: 1.1rem;
+		max-width: 400px;
+	}
+}
