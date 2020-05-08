@@ -1,5 +1,9 @@
 # Imagine Jekyll Theme
 
+## Branch for demo purposes only. Use the `master` branch for your project(s).
+
+*** 
+
 Jekyll theme based on [Imagine Bootstrap Template](https://colorlib.com/wp/template/imagine/) under CC BY 3.0 license, which means [footer credits must remain in place](https://colorlib.com/wp/licence/).
 
 
