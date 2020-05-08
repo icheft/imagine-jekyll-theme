@@ -1,0 +1,15 @@
+# If you are not using Google Analytics, please change 'google-ID' to an empty string
+google-ID: 'UA-162829284-3'
+
+
+# Available social icons are powered by Font Awesome, so you can use any icon that they offer
+social:
+- {icon: 'github', link: 'https://www.github.com/icheft'}
+- {icon: 'linkedin', link: 'https://www.linkedin.com/in/brianlhchen/'}
+- {icon: 'envelope', link: 'mailto:brian.lxchen@gmail.com'}
+- {icon: 'instagram', link: 'https://instagram.com/brian_lxchen'}
+- {icon: 'facebook', link: 'https://facebook.com/brian.lxchen'}
+
+
+# Customize site text
+# header: "Let's Meet Brian!"
