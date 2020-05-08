@@ -2,12 +2,6 @@
 
 ## Branch for demo purposes only. Use the `master` branch for your project(s).
 
-*** 
-
-Jekyll theme based on [Imagine Bootstrap Template](https://colorlib.com/wp/template/imagine/) under CC BY 3.0 license, which means [footer credits must remain in place](https://colorlib.com/wp/licence/).
-
-
-
 ***
 The original source of this repo is at [colorlib](https://colorlib.com/wp/template/imagine/). You can see the original demo of the theme [here](https://colorlib.com/preview/theme/imagine/).
 
