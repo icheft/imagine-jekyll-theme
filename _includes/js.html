@@ -13,12 +13,11 @@
 <script src="{{ "/assets/js/main.js" | prepend: site.url }}"></script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162829284-3"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.data.settings.google-ID }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-162829284-3');
+  gtag('config', '{{ site.data.settings.google-ID }}');
 </script>
-
