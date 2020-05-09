@@ -5,6 +5,7 @@
   
 A Jekyll version of [Imagine template](https://colorlib.com/wp/template/imagine/ ) by [colorlib](https://colorlib.com/ ) under `CC BY 3.0` license.
   
+![Imagine Jekyll Theme](https://i.imgur.com/ADeQpe0.png "Imagine Jekyll Theme")
   
 ##  Table of Contents
   
@@ -23,7 +24,7 @@ A Jekyll version of [Imagine template](https://colorlib.com/wp/template/imagine/
   
 ##  Demo
   
-View demo of this jekyll theme [here](https://icheft.github.io/imagine-jekyll )
+View demo of this jekyll theme [here](https://icheft.github.io/imagine-jekyll-theme )
   
 ##  How to Use
   
