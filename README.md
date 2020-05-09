@@ -3,7 +3,7 @@
   
 [![Build Status](https://travis-ci.org/icheft/imagine-jekyll.svg?branch=master )](https://travis-ci.org/icheft/imagine-jekyll)
   
-A Jekyll version of [Imagine template](https://colorlib.com/wp/template/imagine/ ) by [colorlib](https://colorlib.com/ ) under `CC BY 3.0` license.
+A Jekyll theme based on [Imagine template](https://colorlib.com/wp/template/imagine/ ) by [colorlib](https://colorlib.com/ ) under `CC BY 3.0` license.
   
 ![Imagine Jekyll Theme](https://i.imgur.com/ADeQpe0.png "Imagine Jekyll Theme")
   
