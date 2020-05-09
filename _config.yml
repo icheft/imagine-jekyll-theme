@@ -1,15 +1,22 @@
 # Site settings
-title: Imagine Jekyll
-email: brian.lxchen@gmail.com
+title: Imagine Jekyll Theme
+email: youremailaddress@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Jekyll theme based on Imagine Bootstrap Template under CC BY 3.0 license, 
-  which means footer credits must remain in place.
-  The original source code can be found on colorlib.
+  Create a strong and memorable first impression with a free one-page business website template, Imagine. 
+  This remarkable site canvas has a clean and minimalistic look that will display your content beautifully. 
+  Instead of doing the work from the ground up, you can now spice things up immediately with Imagine. 
+  It is an HTML template that you will find a breeze to use, thanks to its tidy structure. 
+  Keep in mind, the appearance of Imagine works fantastically well by default, but you can tweak it, too.
+  It is released under the Creative Commons.
 # baseurl: "" # the subpath of your site, e.g. /blog
-url: https://icheft.github.io/imagine-jekyll # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  icheft
+url: https://icheft.github.io/imagine-jekyll-theme # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  yourname
+author: icheft
+
 
 # Build settings
+markdown: kramdown
+
 plugins:
   - jekyll-feed
 
