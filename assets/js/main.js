@@ -4,12 +4,16 @@
  	once: false
  });
 
+$(window).on('load', function(){  // Animate loader off screen
+    $(".pre-gif").fadeOut("slow");;
+});
+
 jQuery(document).ready(function($) {
 
 	"use strict";
 
 	
-	$(".loader").delay(1000).fadeOut("slow");
+	// $(".loader").delay(1000).fadeOut("slow");
   $("#overlayer").delay(1000).fadeOut("slow");	
 
 	var siteMenuClone = function() {
