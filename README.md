@@ -45,9 +45,10 @@ Fork this repository and create a branch named `gh-pages` or `YOURUSERNAME.githu
   
 ###  Features
   
-More to be added. 
-+ loading page `gif` can be fully customized to your own `gif` file
++ loading page `gif` can be fully customized to your own `gif` file (current `loader.gif` is created by [Aaron Iker](https://dribbble.com/shots/5533600-Loading-boxes?utm_source=Clipboard_Shot&utm_campaign=ai&utm_content=Loading%20boxes&utm_medium=Social_Share))
   
+More to be added. 
+
 ##  Contributing
   
   
