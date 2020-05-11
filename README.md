@@ -14,7 +14,7 @@ A Jekyll theme based on [Imagine template](https://colorlib.com/wp/template/imag
   - [Table of Contents](#table-of-contents)
   - [Demo](#demo)
   - [How to Use](#how-to-use)
-  - [Added Features](#added-features)
+  - [Added/Modified Features](#addedmodified-features)
     - [Sections](#sections)
     - [Features](#features)
   - [Contributing](#contributing)
@@ -35,7 +35,7 @@ and [creating pages](https://jekyllrb.com/docs/pages/ ).
   
 Fork this repository and create a branch named `gh-pages` or `YOURUSERNAME.github.io`, then start editing the `_config.yml` file and the `settings.yml` file under the `_data` directory.
   
-##  Added Features
+##  Added/Modified Features
   
   
 ###  Sections
@@ -46,6 +46,7 @@ Fork this repository and create a branch named `gh-pages` or `YOURUSERNAME.githu
 ###  Features
   
 More to be added. 
++ loading page `gif` can be fully customized to your own `gif` file
   
 ##  Contributing
   
