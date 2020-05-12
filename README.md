@@ -1,27 +1,55 @@
-#  Imagine Jekyll Theme
-  
-  
-[![Build Status](https://travis-ci.org/icheft/imagine-jekyll-theme.svg?branch=master)](https://travis-ci.org/icheft/imagine-jekyll-theme)
-  
-A Jekyll theme based on [Imagine template](https://colorlib.com/wp/template/imagine/ ) by [colorlib](https://colorlib.com/ ) under `CC BY 3.0` license.
+<h1 align="center">
+  <br>
+  <a href="https://icheft.github.io/imagine-jekyll-theme/"><img src="https://i.imgur.com/R8k8Wx7.png" alt="imagine" width="200"></a>
+  <br>
+  Imagine Jekyll Theme
+  <br>
+</h1>
+
+<hr>
+
+<h4 align="center">A Jekyll theme based on <a href="https://colorlib.com/wp/template/imagine/">Imagine template</a> by <a href="https://colorlib.com/">colorlib</a> under <code>CC BY 3.0</code> license.</h4>
+
+
+<p align="center">
+  <a href="https://travis-ci.org/icheft/imagine-jekyll-theme">
+    <img src="https://travis-ci.org/icheft/imagine-jekyll-theme.svg?branch=master"
+         alt="Build Status">
+  </a>
+  <a href="https://app.netlify.com/sites/imagine-jekyll-theme/deploys">
+    <img src="https://api.netlify.com/api/v1/badges/b53781a7-8372-450b-90a4-18efd90a99b3/deploy-status"
+         alt="Netlify Status">
+  </a>
+</p>
+
+<p align="center">
+  <a href="#demo">Demo</a> •
+  <a href="#how-to-use">How to Use</a> •
+  <a href="#added-features">Added Features</a> •
+  <a href="#contributing">Contributing</a> •
+  <a href="#credits">Credits</a>
+</p>
+
+
   
 ![Imagine Jekyll Theme](https://i.imgur.com/ADeQpe0.png "Imagine Jekyll Theme")
   
-##  Table of Contents
-  
-  
-- [Imagine Jekyll Theme](#imagine-jekyll-theme)
-  - [Table of Contents](#table-of-contents)
-  - [Demo](#demo)
-  - [How to Use](#how-to-use)
-  - [Added Features](#added-features)
-    - [Sections](#sections)
-    - [Features](#features)
-  - [Contributing](#contributing)
-  - [Credits](#credits)
   
 ***
+## Table of Contents
   
+- [Table of Contents](#table-of-contents)
+- [Demo](#demo)
+- [How to Use](#how-to-use)
+- [Added Features](#added-features)
+  - [Sections](#sections)
+  - [Features](#features)
+- [Contributing](#contributing)
+- [Credits](#credits)
+
+***
+
+
 ##  Demo
   
 View demo of this jekyll theme [here](https://icheft.github.io/imagine-jekyll-theme )
