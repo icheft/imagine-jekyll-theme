@@ -6,8 +6,6 @@
   <br>
 </h1>
 
-<hr>
-
 <h4 align="center">A Jekyll theme based on <a href="https://colorlib.com/wp/template/imagine/">Imagine template</a> by <a href="https://colorlib.com/">colorlib</a> under <code>CC BY 3.0</code> license.</h4>
 
 
