@@ -95,3 +95,4 @@ Original README from colorlib:
 > 
 > Removing copyright information without the license will result in suspension of your hosting and/or domain name(s).
   
+[![HitCount](http://hits.dwyl.com/icheft/imagine-jekyll-theme.svg)](http://hits.dwyl.com/icheft/imagine-jekyll-theme) since 2020-05-12.
