@@ -1,0 +1,83 @@
+<div class="site-section" id="appendix-section">
+    <div class="container">
+      <div class="row">
+        <!-- <div class="col-lg-6 mb-5 mb-lg-0" data-aos="">
+          <img src="/assets/images/landing_1.png" alt="Image" class="img-fluid">
+        </div> -->
+        
+        <hr style="width:100%" size="3" color=black align-left> 
+        <div class="col-lg-12 ml-auto pl-lg-12">
+          <!-- <span class="sub-title">Ask Us, We Are Happy To Answer</span> -->
+          <h2 class="font-weight-bold text-black mb-5">Appendix</h2>
+
+          <h3>Datasets used</h3>
+            <ul class="mb-5">
+                <li>
+                    <a href="https://zenodo.org/record/4277311#.Ybd6B73MKMo">Quotebank dataset</a>
+                </li>
+                The Quotebank dataset <sup><a href="#ref:2">2</a></sup> contains 178 million speaker-attributed attributed quotations collected
+                from 162 million English news articles published between 2008 and 2020. The dataset is divided
+                into phases A-E; in this project only the phase E part (2015-2020) of the quotation-centric dataset is used,
+                as only phase E has correctly represented non-ASCII characters. For more details regarding the 
+                phases see the datasets <a href="https://github.com/epfl-dlab/Quotebank/blob/main/phases.md">GitHub repository</a>.
+                <li>
+                    <a href="https://drive.google.com/drive/folders/1VAFHacZFh0oxSxilgNByb1nlNsqznUf0">Wikidata speakers</a>
+                </li>
+                This file contains the metadata about 9 million speakers in the Quotebank dataset. The attributes provided (and the
+                amount of speakers they are available for) are: 
+                date of birth (<b>?</b>), gender (98%), occupation (96%) nationality (84%), religion (11%), ethnic group (7%), etc. 
+            </ul> 
+          <h3>Methods</h3>
+            <ul class="mb-5">
+                <li>
+                    <a href="https://github.com/nicodv/kmodes">K-prototypes clustering algorithm</a>
+                </li>
+                The speakers dataset that we want to cluster to find personas in the data has both numerical (age and number of quotations) 
+                and categorical attributes (gender, nationality, and occupation). Clustering with K-means is only possible after 
+                one-hot encoding all categorical variables, which gives rise to the curse of dimensionality since there are ~100 different
+                occupations. Therefore, the K-prototypes is used as it handles clustering over numerical and categorical variables, and has 
+                shown to perform better than K-means with one-hot encoding <sup><a href="#ref:1">1</a></sup>. For implementation details, see
+                the Jupyter notebook <a href="https://github.com/epfl-ada/ada-2021-project-quotebankers/blob/main/clustering.ipynb">clustering.ipynb</a>
+                in the GitHub repository.
+                <li>
+                    <a href="">Supervised learning for person score</a>
+                </li>
+                Describe the method used for getting the person score here...
+                <li>
+                    <a href="">Sentimental analysis</a>
+                </li>
+                The used emotion classification method is the zero-shot classification using the Hugging-Face framework <sup><a href="#ref:3">3</a></sup> that is also used in
+                 the topic classification part of the project. This method is easily scalable as 100,000 quotes were classified in less than 
+                 10 minutes, and seem to yield acceptable results. The emotion categories chosen were angry, joy, sad, fear, calm and neutral,
+                 according to the Russel model of emotion <sup><a href="#ref:4">4</a></sup>. For the implemention details, see the Jupyter notebook 
+                 <a href="https://github.com/epfl-ada/ada-2021-project-quotebankers/blob/main/find_emotions.ipynb">find_emotions.ipynb</a>
+                 in the GitHub repository.
+                <li>
+                    <a href="">Topic detection</a>
+                </li>
+                The approach used is called zero-shot text classification. For the implementation details, see the Jupyter notebook
+                <a href="https://github.com/epfl-ada/ada-2021-project-quotebankers/blob/main/what.ipynb">what.ipynb</a> in the GitHub repository.
+                 
+                 
+           </ul> 
+          <h3>References</h3>
+            <ol class="mb-5">
+                <li>
+                    <a id="ref:1" href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.15.4028&rep=rep1&type=pdf">Extensions to the k-Means Algorithm for Clustering
+                        Large Data Sets with Categorical Values</a>
+                </li>
+                <li>
+                    <a id="ref:2" href="https://dlab.epfl.ch/people/west/pub/Vaucher-Spitz-Catasta-West_WSDM-21.pdf">Quotebank: A Corpus of Quotations from a Decade of News</a>
+                </li> 
+                <li>
+                    <a id="ref:3" href="https://huggingface.co/">Hugging face framework</a>
+                </li>
+                <li>
+                    <a id="ref:4" href="https://www.sciencedirect.com/science/article/abs/pii/009265667790037X">Evidence for a three-factor theory of emotions</a>
+                </li>
+            </ol>
+
+        </div>
+      </div>
+    </div>
+</div>
