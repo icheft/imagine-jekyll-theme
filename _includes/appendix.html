@@ -46,16 +46,18 @@
                 <li>
                     <a href="">Sentimental analysis</a>
                 </li>
-                The used emotion classification method is the zero-shot classification using the Hugging-Face framework <sup><a href="#ref:3">3</a></sup> that is also used in
+                The used emotion classification method is the zero-shot classification using the <a href="https://huggingface.co/">Hugging-Face framework</a> that is also used in
                  the topic classification part of the project. This method is easily scalable as 100,000 quotes were classified in less than 
                  10 minutes, and seem to yield acceptable results. The emotion categories chosen were angry, joy, sad, fear, calm and neutral,
-                 according to the Russel model of emotion <sup><a href="#ref:4">4</a></sup>. For the implemention details, see the Jupyter notebook 
+                 according to the Russel model of emotion <sup><a href="#ref:3">3</a></sup>. For the implemention details, see the Jupyter notebook 
                  <a href="https://github.com/epfl-ada/ada-2021-project-quotebankers/blob/main/find_emotions.ipynb">find_emotions.ipynb</a>
                  in the GitHub repository.
                 <li>
                     <a href="">Topic detection</a>
                 </li>
-                The approach used is called zero-shot text classification. For the implementation details, see the Jupyter notebook
+                The approach used is called zero-shot text classification. We will be using the following fine-tuned model, appropriate for the 
+                task of zero-shot text classification: <a href="https://huggingface.co/typeform/distilbert-base-uncased-mnli">DistilBERT</a> base model uncased. This model is fine-tuned on Multi-Genre Natural Language 
+                Inference (MNLI) dataset for the zero-shot classification task. For the implementation details, see the Jupyter notebook
                 <a href="https://github.com/epfl-ada/ada-2021-project-quotebankers/blob/main/what.ipynb">what.ipynb</a> in the GitHub repository.
                  
                  
@@ -70,10 +72,7 @@
                     <a id="ref:2" href="https://dlab.epfl.ch/people/west/pub/Vaucher-Spitz-Catasta-West_WSDM-21.pdf">Quotebank: A Corpus of Quotations from a Decade of News</a>
                 </li> 
                 <li>
-                    <a id="ref:3" href="https://huggingface.co/">Hugging face framework</a>
-                </li>
-                <li>
-                    <a id="ref:4" href="https://www.sciencedirect.com/science/article/abs/pii/009265667790037X">Evidence for a three-factor theory of emotions</a>
+                    <a id="ref:3" href="https://www.sciencedirect.com/science/article/abs/pii/009265667790037X">Evidence for a three-factor theory of emotions</a>
                 </li>
             </ol>
 
