@@ -1,12 +1,15 @@
 <div class="site-section" id="who-section">
     <div class="container">
       <div class="row mb-5"  data-aos="">
-        <div class="text-left  mb-5">
+        <div class="text-left  mb-3">
           <h2 class="section-title">Who you need to be</h2>
 
           <p class="lead"><b>Isn't it a pleasure to be listened to?</b> The ability to make your voice heard is a privilege that few can afford. 
               Sometimes you can have the feeling that only the loudest are listened to. Starting from the 2015-2020 Quotebank dataset and the
               Wikidata dataset of speaker attributes, let us see the distribution of the key attributes of the quoted speakers. 
+            <br> 
+            CHANGE THIS TO: INTRO + KEY INSIGHTS
+            
             </p>
         </div>
       </div>
@@ -34,7 +37,7 @@
         </div>
 
         <!-- Plots to the right -->
-        <div class="col-lg-7" data-aos="fade-right">
+        <div class="col-lg-7" data-aos="fade-left">
             <html> 
                 <head> 
                     <script src="assets\js\jquery-3.3.1.min.js"></script> 
@@ -59,47 +62,39 @@
 
         <!-- Block of text to the left -->
         <div class="col-lg-5 pl-lg-5 ml-auto mt-md-5">
-            <h2 class="text-black"> 2 - Gender distribution</h2>
-            <p class="mb-4">As seen to the left, few people are quoted many times.</p>
+            <h2 class="text-black"> 2. Male-dominated quotations</h2>
+            <p class="mb-4">
+                In the pre-processed part of the dataset used to run the rest of our analysis,
+                males stand for roughly 77% of all quotations, females for roughly 22% and other
+                genders for a little over 1%. Even though the data presented has been aggregated over the years 2015-2020, 
+                we have not observed significant changes in the distribution of genders over these years.
+            </p>
           </div>
-
         <!-- Plots to the right -->
-        <div class="col-lg-7" data-aos="fade-left" text-center align-items-center>
-          <img src="/assets/images/infogender_legend.svg" alt="Image" class="img-fluid" style="width: 70%">
+        <div class="col-lg-7" data-aos="fade-left" style="text-align: center">
+          <img src="/assets/images/infogender_a_lot_better.svg" alt="Image" class="img-fluid" style="width: 60%">
         </div>
-
-        
-
-
       </div>
       <!-- END -->
 
       <!-- 3) Occupations for all, for men, and for women (merge Eliott's plots into one)  -->
       <div class="row mb-5 site-section">
 
-        <!-- Plots to the left -->
-        <div class="col-lg-7" data-aos="fade-right">
-          <img src="/assets/images/undraw_gift_card_6ekc.svg" alt="Image" class="img-fluid">
-        </div>
-
         <!-- Block of text to the right -->
         <div class="col-lg-5 pl-lg-5 ml-auto mt-md-5">
-          <h2 class="text-black"> 3 - Occupation distribution for genders</h2>
-          <p class="mb-4">As seen to the left, few people are quoted many times.</p>
-          
-          <div class="author-box" data-aos="fade-left">
-            <div class="d-flex mb-4">
-              <div class="mr-3">
-                <img src="/assets/images/person_4.jpg" alt="Image" class="img-fluid rounded-circle">
-              </div>
-              <div class="mr-auto text-black">
-                <strong class="font-weight-bold mb-0">Grey Simpson</strong> <br>
-                Co-Founder, XYZ Inc.
-              </div>
-            </div>
-            <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus vitae ipsa asperiores inventore aperiam iure?&rdquo;</blockquote>
-          </div>
+          <h2 class="text-black"> 3. Occupation distribution for genders</h2>
+          <p class="mb-4">
+              As seen to the left, few people are quoted many times.
+          </p>
+
         </div>
+
+        <!-- Plots to the left -->
+        <div class="col-lg-7" data-aos="fade-right">
+            <img src="/assets/images/undraw_gift_card_6ekc.svg" alt="Image" class="img-fluid">
+          </div>
+
+
       </div>
       <!-- END -->
 
