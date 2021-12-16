@@ -1,12 +1,167 @@
 <div class="site-section" id="who-section">
     <div class="container">
-      <div class="row mb-5 justify-content-center text-center"  data-aos="fade-up">
-        <div class="col-7 text-center  mb-5">
+      <div class="row mb-5"  data-aos="">
+        <div class="text-left  mb-5">
           <h2 class="section-title">Who you need to be</h2>
 
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga quos quaerat sapiente nam, id vero.</p>
+          <p class="lead"><b>Isn't it a pleasure to be listened to?</b> The ability to make your voice heard is a privilege that few can afford. 
+              Sometimes you can have the feeling that only the loudest are listened to. Starting from the 2015-2020 Quotebank dataset and the
+              Wikidata dataset of speaker attributes, let us see the distribution of the key attributes of the quoted speakers. 
+            </p>
         </div>
       </div>
+
+    
+      <!-- 1) Persons (x-azis) vs n_quotes (y-axis) -->
+      <div class="row mb-5 site-section">      
+
+        <!-- Block of text to the left -->
+        <div class="col-lg-5 pl-lg-5 ml-auto mt-md-5">
+          <h2 class="text-black"> 1. Imbalance in number of quotations</h2>
+          <p class="mb-4">
+              As seen from the graph (log-scaled in the y-axis), <b>most quotes are made by a few people</b>, and <b>most people have made a few quotes</b>.
+              In this dataset, <b>20% of the most quoted speakers have made 88% of the quotes</b>! The distribution of the 
+              number of quotes per speaker is a power law, and interestingly agrees with the 
+              <a href="https://en.wikipedia.org/wiki/Pareto_principle">80/20 rule</a> (aka Pareto principle).
+
+              <br><br>
+
+              This law was observed by the Italian economist Vilfredo Pareto, whom while at the University of Lausanne (!),
+              showed that 80% of the land in Italy was owned by 20% of the population. The correspondant is true for the case
+              of the number of quotations in this dataset. 
+              
+          </p>
+        </div>
+
+        <!-- Plots to the right -->
+        <div class="col-lg-7" data-aos="fade-right">
+            <html> 
+                <head> 
+                    <script src="assets\js\jquery-3.3.1.min.js"></script> 
+                    <script> 
+                        $(function(){
+                            $("#includedContent").load("assets\\images\\quotations_per_speaker.html"); 
+                        });
+                    </script> 
+                </head> 
+            </html>
+            <!-- <img src="/assets/images/undraw_gift_card_6ekc.svg" alt="Image" class="img-fluid"> -->
+            <body> 
+                <div id="includedContent"></div>
+            </body>
+        </div>
+
+      </div>
+      <!-- END -->
+
+      <!-- 2) Gender visualization -->
+      <div class="row mb-5 site-section">
+
+        <!-- Block of text to the left -->
+        <div class="col-lg-5 pl-lg-5 ml-auto mt-md-5">
+            <h2 class="text-black"> 2 - Gender distribution</h2>
+            <p class="mb-4">As seen to the left, few people are quoted many times.</p>
+          </div>
+
+        <!-- Plots to the right -->
+        <div class="col-lg-7" data-aos="fade-left" text-center align-items-center>
+          <img src="/assets/images/infogender_legend.svg" alt="Image" class="img-fluid" style="width: 70%">
+        </div>
+
+        
+
+
+      </div>
+      <!-- END -->
+
+      <!-- 3) Occupations for all, for men, and for women (merge Eliott's plots into one)  -->
+      <div class="row mb-5 site-section">
+
+        <!-- Plots to the left -->
+        <div class="col-lg-7" data-aos="fade-right">
+          <img src="/assets/images/undraw_gift_card_6ekc.svg" alt="Image" class="img-fluid">
+        </div>
+
+        <!-- Block of text to the right -->
+        <div class="col-lg-5 pl-lg-5 ml-auto mt-md-5">
+          <h2 class="text-black"> 3 - Occupation distribution for genders</h2>
+          <p class="mb-4">As seen to the left, few people are quoted many times.</p>
+          
+          <div class="author-box" data-aos="fade-left">
+            <div class="d-flex mb-4">
+              <div class="mr-3">
+                <img src="/assets/images/person_4.jpg" alt="Image" class="img-fluid rounded-circle">
+              </div>
+              <div class="mr-auto text-black">
+                <strong class="font-weight-bold mb-0">Grey Simpson</strong> <br>
+                Co-Founder, XYZ Inc.
+              </div>
+            </div>
+            <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus vitae ipsa asperiores inventore aperiam iure?&rdquo;</blockquote>
+          </div>
+        </div>
+      </div>
+      <!-- END -->
+
+      <!-- 4) Age & occupation -->
+      <div class="row mb-5 site-section">
+
+        <!-- Plots to the left -->
+        <div class="col-lg-7" data-aos="fade-right">
+          <img src="/assets/images/undraw_gift_card_6ekc.svg" alt="Image" class="img-fluid">
+        </div>
+
+        <!-- Block of text to the right -->
+        <div class="col-lg-5 pl-lg-5 ml-auto mt-md-5">
+          <h2 class="text-black"> 4 - Age and occupation</h2>
+          <p class="mb-4">As seen to the left, few people are quoted many times.</p>
+          
+          <div class="author-box" data-aos="fade-left">
+            <div class="d-flex mb-4">
+              <div class="mr-3">
+                <img src="/assets/images/person_4.jpg" alt="Image" class="img-fluid rounded-circle">
+              </div>
+              <div class="mr-auto text-black">
+                <strong class="font-weight-bold mb-0">Grey Simpson</strong> <br>
+                Co-Founder, XYZ Inc.
+              </div>
+            </div>
+            <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus vitae ipsa asperiores inventore aperiam iure?&rdquo;</blockquote>
+          </div>
+        </div>
+      </div>
+      <!-- END -->
+
+      <!-- 5) Clustering -->
+      <div class="row mb-5 site-section">
+
+        <!-- Plots to the left -->
+        <div class="col-lg-7" data-aos="fade-right">
+          <img src="/assets/images/undraw_gift_card_6ekc.svg" alt="Image" class="img-fluid">
+        </div>
+
+        <!-- Block of text to the right -->
+        <div class="col-lg-5 pl-lg-5 ml-auto mt-md-5">
+          <h2 class="text-black"> 5 - Clustering</h2>
+          <p class="mb-4">As seen to the left, few people are quoted many times.</p>
+          
+          <div class="author-box" data-aos="fade-left">
+            <div class="d-flex mb-4">
+              <div class="mr-3">
+                <img src="/assets/images/person_4.jpg" alt="Image" class="img-fluid rounded-circle">
+              </div>
+              <div class="mr-auto text-black">
+                <strong class="font-weight-bold mb-0">Grey Simpson</strong> <br>
+                Co-Founder, XYZ Inc.
+              </div>
+            </div>
+            <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus vitae ipsa asperiores inventore aperiam iure?&rdquo;</blockquote>
+          </div>
+        </div>
+      </div>
+      <!-- END -->
+
+      <!-- The summary part of the 3 clusters -->
       <div class="row align-items-stretch">
         <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
           <div class="unit-4 d-block">
@@ -14,7 +169,7 @@
               <span class="icon-wrap"><span class="text-primary icon-autorenew"></span></span>
             </div>
             <div>
-              <h3>Marketing Consulting</h3>
+              <h3>Cluster 1</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
               <p><a href="#">Learn More</a></p>
             </div>
@@ -28,7 +183,7 @@
               <span class="icon-wrap"><span class="text-primary icon-store_mall_directory"></span></span>
             </div>
             <div>
-              <h3>Market Analysis</h3>
+              <h3>Cluster 2</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
               <p><a href="#">Learn More</a></p>
             </div>
@@ -40,7 +195,7 @@
               <span class="icon-wrap"><span class="text-primary icon-shopping_basket"></span></span>
             </div>
             <div>
-              <h3>Easy Purchase</h3>
+              <h3>Cluster 3</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
               <p><a href="#">Learn More</a></p>
             </div>
