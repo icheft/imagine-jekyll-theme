@@ -43,14 +43,14 @@
                     <script src="assets\js\jquery-3.3.1.min.js"></script> 
                     <script> 
                         $(function(){
-                            $("#includedContent").load("assets\\images\\quotations_per_speaker.html"); 
+                            $("#quotations_per_speaker").load("assets\\images\\quotations_per_speaker.html"); 
                         });
                     </script> 
                 </head> 
             </html>
             <!-- <img src="/assets/images/undraw_gift_card_6ekc.svg" alt="Image" class="img-fluid"> -->
             <body> 
-                <div id="includedContent"></div>
+                <div id="quotations_per_speaker"></div>
             </body>
         </div>
 
@@ -80,7 +80,7 @@
       <!-- 3) Occupations for all, for men, and for women (merge Eliott's plots into one)  -->
       <div class="row mb-5 site-section">
 
-        <!-- Block of text to the right -->
+        <!-- Block of text to the left -->
         <div class="col-lg-5 pl-lg-5 ml-auto mt-md-5">
           <h2 class="text-black"> 3. Occupation distribution for genders</h2>
           <p class="mb-4">
@@ -89,10 +89,22 @@
 
         </div>
 
-        <!-- Plots to the left -->
-        <div class="col-lg-7" data-aos="fade-right">
-            <img src="/assets/images/undraw_gift_card_6ekc.svg" alt="Image" class="img-fluid">
-          </div>
+        <!-- Plots to the right -->
+        <div class="col-lg-7" data-aos="fade-left">
+            <html> 
+                <head> 
+                    <script src="assets\js\jquery-3.3.1.min.js"></script> 
+                    <script> 
+                        $(function(){
+                            $("#top10_occupations_males_and_females").load("assets\\images\\top10_occupations_males_and_females.html"); 
+                        });
+                    </script> 
+                </head> 
+            </html>
+            <body> 
+                <div id="top10_occupations_males_and_females"></div>
+            </body>
+        </div>
 
 
       </div>
